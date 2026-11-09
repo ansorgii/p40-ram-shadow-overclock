@@ -1,0 +1,12 @@
+[Unit]
+Description=Set Tesla P40 application clocks to 2000 MHz
+After=systemd-modules-load.service
+Before=display-manager.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/p40-clock
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

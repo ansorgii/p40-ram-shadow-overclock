@@ -1,0 +1,15 @@
+#!/bin/sh
+set -eu
+
+case "${1:-}" in
+    prereqs) exit 0 ;;
+esac
+
+: "${P40_CLOCK_MODULE:?Set P40_CLOCK_MODULE to the absolute path of p40clock.ko}"
+test -n "${version:-}"
+test -f "$P40_CLOCK_MODULE"
+
+probedir="$DESTDIR/usr/lib/modules/$version/extra"
+mkdir -p "$probedir"
+install -m 0644 "$P40_CLOCK_MODULE" "$probedir/p40init.ko"
+depmod -b "$DESTDIR" "$version"
