@@ -1,0 +1,4437 @@
+{
+  "description": "Passive existing-workload observation, 1797 graphics application target and 250 W configured limit. Five-second target polling interval; timestamps are elapsed seconds. GPU fields preserve nvidia-smi units: MHz, percent, MiB, W and degrees C. No native decode throughput was exposed.",
+  "samples": [
+    {
+      "elapsed_s": 6.008148193359375e-05,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "99",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "244.72",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 5.0519118309021,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "98",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "241.29",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 10.11725115776062,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "84",
+        "utilization.memory": "61",
+        "memory.used": "16153",
+        "power.draw": "245.97",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 15.301271677017212,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "52",
+        "memory.used": "16153",
+        "power.draw": "240.43",
+        "power.limit": "250.00",
+        "temperature.gpu": "54",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 20.507556915283203,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "71",
+        "utilization.memory": "50",
+        "memory.used": "16153",
+        "power.draw": "245.22",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 25.60374617576599,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "64",
+        "utilization.memory": "45",
+        "memory.used": "16153",
+        "power.draw": "245.12",
+        "power.limit": "250.00",
+        "temperature.gpu": "54",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 30.806838750839233,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "79",
+        "utilization.memory": "58",
+        "memory.used": "16153",
+        "power.draw": "244.52",
+        "power.limit": "250.00",
+        "temperature.gpu": "54",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 36.014174699783325,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "74",
+        "utilization.memory": "55",
+        "memory.used": "16153",
+        "power.draw": "244.72",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 41.09171915054321,
+      "gpu": {
+        "clocks.sm": "1670",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "233.02",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 46.14956831932068,
+      "gpu": {
+        "clocks.sm": "1683",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "253.25",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 51.25751066207886,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "246.17",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 56.451476097106934,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "247.04",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 61.64819288253784,
+      "gpu": {
+        "clocks.sm": "1683",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "251.09",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 66.79285264015198,
+      "gpu": {
+        "clocks.sm": "1683",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "98",
+        "utilization.memory": "32",
+        "memory.used": "16153",
+        "power.draw": "253.94",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 71.85471487045288,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "32",
+        "memory.used": "16153",
+        "power.draw": "244.14",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 76.91674709320068,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "240.55",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 82.13824486732483,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "97",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "252.42",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 87.34821772575378,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "84",
+        "utilization.memory": "59",
+        "memory.used": "16153",
+        "power.draw": "245.19",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 92.5429060459137,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "73",
+        "utilization.memory": "54",
+        "memory.used": "16153",
+        "power.draw": "242.23",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 97.67416000366211,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "78",
+        "utilization.memory": "55",
+        "memory.used": "16153",
+        "power.draw": "244.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 102.87245035171509,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "85",
+        "utilization.memory": "61",
+        "memory.used": "16153",
+        "power.draw": "136.30",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 108.07792806625366,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "52",
+        "memory.used": "16153",
+        "power.draw": "245.54",
+        "power.limit": "250.00",
+        "temperature.gpu": "54",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 113.27166557312012,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "77",
+        "utilization.memory": "56",
+        "memory.used": "16153",
+        "power.draw": "171.71",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 118.45602297782898,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "65",
+        "utilization.memory": "49",
+        "memory.used": "16153",
+        "power.draw": "158.87",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 123.64836597442627,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "99",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "248.35",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 128.7085325717926,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "73",
+        "utilization.memory": "54",
+        "memory.used": "16153",
+        "power.draw": "241.48",
+        "power.limit": "250.00",
+        "temperature.gpu": "55",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 133.956228017807,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "98",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "248.22",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 139.05319690704346,
+      "gpu": {
+        "clocks.sm": "1670",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "235.40",
+        "power.limit": "250.00",
+        "temperature.gpu": "56",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 144.18692111968994,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "21",
+        "utilization.memory": "8",
+        "memory.used": "16153",
+        "power.draw": "265.85",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 149.24712681770325,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "110.44",
+        "power.limit": "250.00",
+        "temperature.gpu": "52",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 154.47081756591797,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "39",
+        "utilization.memory": "29",
+        "memory.used": "16153",
+        "power.draw": "239.66",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 159.67519545555115,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "141.93",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 164.86284565925598,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "223.50",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 170.05815362930298,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "57",
+        "utilization.memory": "42",
+        "memory.used": "16153",
+        "power.draw": "76.30",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 175.24931621551514,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "238.70",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 180.4539818763733,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "81.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 185.66673469543457,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "9",
+        "utilization.memory": "3",
+        "memory.used": "16153",
+        "power.draw": "254.09",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 190.84075355529785,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "83.00",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 196.0412242412567,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "133.96",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 201.23840808868408,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "40",
+        "utilization.memory": "29",
+        "memory.used": "16153",
+        "power.draw": "77.96",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 206.4846043586731,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "248.24",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 211.58015727996826,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "35",
+        "utilization.memory": "15",
+        "memory.used": "16153",
+        "power.draw": "257.83",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 216.64552664756775,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "8",
+        "utilization.memory": "0",
+        "memory.used": "16153",
+        "power.draw": "70.78",
+        "power.limit": "250.00",
+        "temperature.gpu": "45",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 221.83361792564392,
+      "gpu": {
+        "clocks.sm": "1531",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "42",
+        "utilization.memory": "1",
+        "memory.used": "16955",
+        "power.draw": "212.85",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 226.93651866912842,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "49",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "136.80",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 232.0449538230896,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "54",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "89.11",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 237.24587392807007,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "76.59",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 242.4503469467163,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "240.04",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 247.65367221832275,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "213.65",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 252.86668133735657,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "242.14",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 258.06215167045593,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "59",
+        "utilization.memory": "43",
+        "memory.used": "16153",
+        "power.draw": "239.47",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 263.27034640312195,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "59",
+        "utilization.memory": "43",
+        "memory.used": "16153",
+        "power.draw": "239.79",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 268.46524596214294,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "104.86",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 273.66279554367065,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "26",
+        "utilization.memory": "20",
+        "memory.used": "16153",
+        "power.draw": "243.95",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 278.93329668045044,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "90.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 284.1337101459503,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "57",
+        "utilization.memory": "42",
+        "memory.used": "16153",
+        "power.draw": "76.77",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 289.31843852996826,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "98",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "235.20",
+        "power.limit": "250.00",
+        "temperature.gpu": "52",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 294.37566924095154,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "240.74",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 299.4305679798126,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "239.38",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 304.51340913772583,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "239.04",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 309.69362211227417,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "78.62",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 314.84451627731323,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "89.63",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 320.03412652015686,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "42",
+        "utilization.memory": "31",
+        "memory.used": "16153",
+        "power.draw": "238.51",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 325.215856552124,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "77.86",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 330.40262603759766,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "139.69",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 335.5846288204193,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "54",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "75.06",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 340.7730829715729,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "171.12",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 345.97017788887024,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "238.85",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 351.18154788017273,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "237.19",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 356.3691716194153,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "88.68",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 361.5657811164856,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "242.24",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 366.7573564052582,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "76.48",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 371.9252769947052,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "229.47",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 377.1268217563629,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "77.72",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 382.34339690208435,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "58",
+        "utilization.memory": "43",
+        "memory.used": "16153",
+        "power.draw": "238.10",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 387.517138004303,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "239.25",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 392.7193386554718,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "224.23",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 397.9038248062134,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "58",
+        "utilization.memory": "43",
+        "memory.used": "16153",
+        "power.draw": "239.99",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 403.10197710990906,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "93.00",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 408.26601099967957,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "172.76",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 413.48586869239807,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "239.07",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 418.70823311805725,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "238.08",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 423.9108543395996,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "50",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "236.99",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 429.11392855644226,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "49",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "93.72",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 434.3176341056824,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "38",
+        "utilization.memory": "29",
+        "memory.used": "16153",
+        "power.draw": "233.01",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 439.52037930488586,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "81.61",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 444.7033576965332,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "79.10",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 449.904257774353,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "134.94",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 455.0924165248871,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "60",
+        "utilization.memory": "44",
+        "memory.used": "16153",
+        "power.draw": "102.73",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 460.28641510009766,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "78.35",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 465.4731984138489,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "85.04",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 470.6794617176056,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "235.06",
+        "power.limit": "250.00",
+        "temperature.gpu": "45",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 475.8928174972534,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "54",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "84.52",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 481.10166931152344,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "224.30",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 486.27756905555725,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "240.40",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 491.47377729415894,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "85.41",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 496.67096400260925,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "35",
+        "utilization.memory": "27",
+        "memory.used": "16153",
+        "power.draw": "237.15",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 501.87442207336426,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "43",
+        "utilization.memory": "32",
+        "memory.used": "16153",
+        "power.draw": "227.83",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 507.0511648654938,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "130.62",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 512.2425830364227,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "93.54",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 517.4251232147217,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "238.95",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 522.6092419624329,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "83.03",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 527.7659938335419,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "84.69",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 532.9157068729401,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "54",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "79.65",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 538.10915350914,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "226.21",
+        "power.limit": "250.00",
+        "temperature.gpu": "45",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 543.2929935455322,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "238.12",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 548.496208190918,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "216.19",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 553.6894645690918,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "104.41",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 558.8844294548035,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "185.39",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 564.0263357162476,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "223.72",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 569.2376680374146,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "38",
+        "utilization.memory": "29",
+        "memory.used": "16153",
+        "power.draw": "240.66",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 574.4335353374481,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "28",
+        "utilization.memory": "21",
+        "memory.used": "16153",
+        "power.draw": "108.39",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 579.6356267929077,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "85.55",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 584.837103843689,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "150.56",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 589.9319725036621,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "41",
+        "utilization.memory": "30",
+        "memory.used": "16153",
+        "power.draw": "238.62",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 595.1328694820404,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "222.09",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 600.3318777084351,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "43",
+        "utilization.memory": "32",
+        "memory.used": "16153",
+        "power.draw": "237.57",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 605.5254039764404,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "199.48",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 610.7068564891815,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "73.96",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 615.9231638908386,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "63",
+        "utilization.memory": "26",
+        "memory.used": "16153",
+        "power.draw": "253.51",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 620.9910099506378,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "42",
+        "memory.used": "16153",
+        "power.draw": "232.24",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 626.1842033863068,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "77.97",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 631.3558776378632,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "240.80",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 636.5399489402771,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "90.57",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 641.7293312549591,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "238.83",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 646.9359309673309,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "209.59",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 652.1022152900696,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "77",
+        "utilization.memory": "55",
+        "memory.used": "16153",
+        "power.draw": "220.38",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 657.1710591316223,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "71",
+        "utilization.memory": "51",
+        "memory.used": "16153",
+        "power.draw": "241.20",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 662.2336599826813,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "230.32",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 667.4500148296356,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "42",
+        "memory.used": "16153",
+        "power.draw": "235.24",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 672.6371419429779,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "16",
+        "utilization.memory": "12",
+        "memory.used": "16153",
+        "power.draw": "235.10",
+        "power.limit": "250.00",
+        "temperature.gpu": "45",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 677.8862156867981,
+      "gpu": {
+        "clocks.sm": "1683",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "244.44",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 683.0407605171204,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "77",
+        "utilization.memory": "56",
+        "memory.used": "16153",
+        "power.draw": "241.04",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 688.1728086471558,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "49",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "231.42",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 693.3446590900421,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "160.69",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 698.5575382709503,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "73.50",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 703.7476944923401,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "227.52",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 708.9208009243011,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "197.36",
+        "power.limit": "250.00",
+        "temperature.gpu": "45",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 714.1222064495087,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "122.86",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 719.3136074542999,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "239.01",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 724.4632601737976,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "208.46",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 729.5778338909149,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "219.25",
+        "power.limit": "250.00",
+        "temperature.gpu": "45",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 734.7519137859344,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "239.15",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 739.9419097900391,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "227.62",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 745.1262192726135,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "72.83",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 750.3366589546204,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "235.06",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 755.5236773490906,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "249.71",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 760.7225663661957,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "54",
+        "utilization.memory": "19",
+        "memory.used": "16153",
+        "power.draw": "238.07",
+        "power.limit": "250.00",
+        "temperature.gpu": "44",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 765.7784452438354,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "38",
+        "utilization.memory": "28",
+        "memory.used": "16153",
+        "power.draw": "241.62",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 770.988424539566,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "98",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "241.56",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 776.1056015491486,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "243.42",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 781.1593260765076,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "94.74",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 786.3178572654724,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "79.37",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 791.5313165187836,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "240.85",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 796.5888514518738,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "54",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "76.49",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 801.8037662506104,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "98",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "241.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 806.9588270187378,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "81",
+        "utilization.memory": "61",
+        "memory.used": "16153",
+        "power.draw": "208.48",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 812.1446685791016,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "75",
+        "utilization.memory": "57",
+        "memory.used": "16153",
+        "power.draw": "239.97",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 817.3307933807373,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "54",
+        "memory.used": "16153",
+        "power.draw": "245.99",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 822.5200457572937,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "76",
+        "utilization.memory": "55",
+        "memory.used": "16153",
+        "power.draw": "145.55",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 827.7096927165985,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "77",
+        "utilization.memory": "57",
+        "memory.used": "16153",
+        "power.draw": "114.37",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 832.8939728736877,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "84",
+        "utilization.memory": "61",
+        "memory.used": "16153",
+        "power.draw": "221.66",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 838.0876796245575,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "65",
+        "utilization.memory": "47",
+        "memory.used": "16153",
+        "power.draw": "202.37",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 843.2714583873749,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "53",
+        "memory.used": "16153",
+        "power.draw": "241.45",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 848.4636416435242,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "53",
+        "memory.used": "16153",
+        "power.draw": "242.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 853.6449959278107,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "73",
+        "utilization.memory": "53",
+        "memory.used": "16153",
+        "power.draw": "243.23",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 858.8343999385834,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "236.70",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 863.9031131267548,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "52",
+        "memory.used": "16153",
+        "power.draw": "243.97",
+        "power.limit": "250.00",
+        "temperature.gpu": "52",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 869.1119482517242,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "75",
+        "utilization.memory": "54",
+        "memory.used": "16153",
+        "power.draw": "248.46",
+        "power.limit": "250.00",
+        "temperature.gpu": "52",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 874.2941558361053,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "79",
+        "utilization.memory": "57",
+        "memory.used": "16153",
+        "power.draw": "242.34",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 879.4763190746307,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "79",
+        "utilization.memory": "57",
+        "memory.used": "16153",
+        "power.draw": "240.06",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 884.6663496494293,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "85",
+        "utilization.memory": "62",
+        "memory.used": "16153",
+        "power.draw": "189.79",
+        "power.limit": "250.00",
+        "temperature.gpu": "52",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 889.8063776493073,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "93",
+        "utilization.memory": "30",
+        "memory.used": "16153",
+        "power.draw": "246.86",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 894.8581213951111,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "76",
+        "utilization.memory": "57",
+        "memory.used": "16153",
+        "power.draw": "231.97",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 900.0591218471527,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "78",
+        "utilization.memory": "58",
+        "memory.used": "16153",
+        "power.draw": "232.76",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 905.226589679718,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "84",
+        "utilization.memory": "61",
+        "memory.used": "16153",
+        "power.draw": "244.12",
+        "power.limit": "250.00",
+        "temperature.gpu": "52",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 910.3670902252197,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "70",
+        "utilization.memory": "52",
+        "memory.used": "16153",
+        "power.draw": "226.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 915.5398461818695,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "83",
+        "utilization.memory": "60",
+        "memory.used": "16153",
+        "power.draw": "242.35",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 920.7224857807159,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "3",
+        "utilization.memory": "1",
+        "memory.used": "16153",
+        "power.draw": "255.43",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 925.9904270172119,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "75",
+        "utilization.memory": "56",
+        "memory.used": "16153",
+        "power.draw": "241.77",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 931.056970834732,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "106.86",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 936.2451267242432,
+      "gpu": {
+        "clocks.sm": "1759",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "78.24",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 941.4434480667114,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "236.70",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 946.6390535831451,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "219.08",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 951.8269901275635,
+      "gpu": {
+        "clocks.sm": "1746",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "150.56",
+        "power.limit": "250.00",
+        "temperature.gpu": "53",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 957.011834859848,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "223.25",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 962.1964626312256,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "241.61",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 967.4074387550354,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "72.44",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 972.5957050323486,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "75.62",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 977.7728819847107,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "99.25",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 982.9667975902557,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "50",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "227.58",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 988.1606345176697,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "238.66",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 993.3496448993683,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "50",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "75.15",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 998.5579812526703,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "105.78",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1003.7510933876038,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "76.10",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1008.9498391151428,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "119.28",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1014.1415898799896,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "114.24",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1019.3239703178406,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "125.32",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1024.5225667953491,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "61",
+        "utilization.memory": "45",
+        "memory.used": "16153",
+        "power.draw": "147.07",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1029.588074684143,
+      "gpu": {
+        "clocks.sm": "1683",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "117.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "52",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1034.783462047577,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "0",
+        "utilization.memory": "0",
+        "memory.used": "16153",
+        "power.draw": "68.78",
+        "power.limit": "250.00",
+        "temperature.gpu": "43",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1039.969981431961,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "213.87",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1045.1432390213013,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "90.16",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1050.3194828033447,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "50",
+        "utilization.memory": "21",
+        "memory.used": "16153",
+        "power.draw": "243.39",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1055.3722999095917,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "59",
+        "utilization.memory": "44",
+        "memory.used": "16153",
+        "power.draw": "239.09",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1060.436692237854,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "240.89",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1065.5689108371735,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "246.86",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1070.6616206169128,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "21",
+        "memory.used": "16153",
+        "power.draw": "72.34",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1075.9005553722382,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "126.60",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1081.0946097373962,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "241.41",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1086.3255321979523,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "41",
+        "utilization.memory": "30",
+        "memory.used": "16153",
+        "power.draw": "74.33",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1091.4951066970825,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "234.19",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1096.6779770851135,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "193.45",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1101.7509355545044,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "77",
+        "utilization.memory": "57",
+        "memory.used": "16153",
+        "power.draw": "204.67",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1106.825691461563,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "40",
+        "utilization.memory": "29",
+        "memory.used": "16153",
+        "power.draw": "150.50",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1111.9970371723175,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "102.99",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1117.1789286136627,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "139.07",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1122.3740620613098,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "223.80",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1127.5914461612701,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "240.59",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1132.787940979004,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "243.10",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1137.8369834423065,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "39",
+        "memory.used": "16153",
+        "power.draw": "237.16",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1143.0132393836975,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "227.29",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1148.182407617569,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "133.92",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1153.368640422821,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "74.97",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1158.5429310798645,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "50",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "223.35",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1163.7278716564178,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "15",
+        "utilization.memory": "7",
+        "memory.used": "16153",
+        "power.draw": "71.88",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1168.9509568214417,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "34",
+        "utilization.memory": "26",
+        "memory.used": "16153",
+        "power.draw": "226.03",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1174.1647050380707,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "110.39",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1179.3376636505127,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "42",
+        "utilization.memory": "32",
+        "memory.used": "16153",
+        "power.draw": "241.16",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1184.5486953258514,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "148.64",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1189.7465765476227,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "233.40",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1194.9219398498535,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "207.74",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1200.0585441589355,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "52",
+        "memory.used": "16153",
+        "power.draw": "240.99",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1205.1264672279358,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "213.00",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1210.3274590969086,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "53",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "201.40",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1215.4333055019379,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "40",
+        "utilization.memory": "30",
+        "memory.used": "16153",
+        "power.draw": "240.58",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1220.6075053215027,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "34",
+        "utilization.memory": "25",
+        "memory.used": "16153",
+        "power.draw": "241.13",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1225.799381494522,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "74.49",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1230.9903695583344,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "94.43",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1236.055332660675,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "63",
+        "utilization.memory": "48",
+        "memory.used": "16153",
+        "power.draw": "226.22",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1241.2186036109924,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "52",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "90.71",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1246.4162850379944,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "237.30",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1251.5993375778198,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "233.07",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1256.781418800354,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "35",
+        "utilization.memory": "26",
+        "memory.used": "16153",
+        "power.draw": "240.49",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1261.989560842514,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "64",
+        "utilization.memory": "48",
+        "memory.used": "16153",
+        "power.draw": "242.93",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1267.0541777610779,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "58",
+        "utilization.memory": "44",
+        "memory.used": "16153",
+        "power.draw": "121.19",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1272.1152725219727,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "226.34",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1277.3021709918976,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "125.84",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1282.490831375122,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "57",
+        "utilization.memory": "42",
+        "memory.used": "16153",
+        "power.draw": "75.72",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1287.6831874847412,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "48",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "233.47",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1292.8538844585419,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "231.63",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1298.030902147293,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "49",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "202.55",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1303.0836534500122,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "72",
+        "utilization.memory": "53",
+        "memory.used": "16153",
+        "power.draw": "92.44",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1308.1652245521545,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "84.48",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1313.3544499874115,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "62",
+        "utilization.memory": "46",
+        "memory.used": "16153",
+        "power.draw": "152.05",
+        "power.limit": "250.00",
+        "temperature.gpu": "49",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1318.4408452510834,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "56",
+        "utilization.memory": "42",
+        "memory.used": "16153",
+        "power.draw": "75.91",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1323.6059062480927,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "31",
+        "utilization.memory": "21",
+        "memory.used": "16153",
+        "power.draw": "83.62",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1328.7036561965942,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "238.32",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1333.814330816269,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "87.77",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1338.9897725582123,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "64",
+        "utilization.memory": "46",
+        "memory.used": "16153",
+        "power.draw": "91.03",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1344.1445453166962,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "232.63",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1349.3279416561127,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "46",
+        "utilization.memory": "34",
+        "memory.used": "16153",
+        "power.draw": "148.60",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1354.506511926651,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "49",
+        "utilization.memory": "36",
+        "memory.used": "16153",
+        "power.draw": "97.16",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1359.7022576332092,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "62",
+        "utilization.memory": "46",
+        "memory.used": "16153",
+        "power.draw": "214.36",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1364.7644393444061,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "58",
+        "utilization.memory": "42",
+        "memory.used": "16153",
+        "power.draw": "199.87",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1369.9411039352417,
+      "gpu": {
+        "clocks.sm": "1708",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "38",
+        "memory.used": "16153",
+        "power.draw": "176.23",
+        "power.limit": "250.00",
+        "temperature.gpu": "51",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1375.1127638816833,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "237.12",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1380.3113996982574,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "219.58",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1385.5264356136322,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "47",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "88.81",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1390.7073872089386,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "80.81",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1395.8973155021667,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "210.00",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1401.0777821540833,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "55",
+        "utilization.memory": "41",
+        "memory.used": "16153",
+        "power.draw": "237.36",
+        "power.limit": "250.00",
+        "temperature.gpu": "46",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1406.2859327793121,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "45",
+        "utilization.memory": "33",
+        "memory.used": "16153",
+        "power.draw": "238.96",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1411.4833443164825,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "54",
+        "utilization.memory": "40",
+        "memory.used": "16153",
+        "power.draw": "89.28",
+        "power.limit": "250.00",
+        "temperature.gpu": "47",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1416.6646182537079,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "51",
+        "utilization.memory": "37",
+        "memory.used": "16153",
+        "power.draw": "239.24",
+        "power.limit": "250.00",
+        "temperature.gpu": "48",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    },
+    {
+      "elapsed_s": 1421.729005098343,
+      "gpu": {
+        "clocks.sm": "1695",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "100",
+        "utilization.memory": "35",
+        "memory.used": "16153",
+        "power.draw": "236.90",
+        "power.limit": "250.00",
+        "temperature.gpu": "50",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000004"
+      }
+    },
+    {
+      "elapsed_s": 1426.7808442115784,
+      "gpu": {
+        "clocks.sm": "1771",
+        "clocks.mem": "3615",
+        "clocks.applications.graphics": "1797",
+        "utilization.gpu": "0",
+        "utilization.memory": "0",
+        "memory.used": "16153",
+        "power.draw": "68.28",
+        "power.limit": "250.00",
+        "temperature.gpu": "42",
+        "pstate": "P0",
+        "clocks_throttle_reasons.active": "0x0000000000000000"
+      }
+    }
+  ]
+}

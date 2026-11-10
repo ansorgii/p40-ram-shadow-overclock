@@ -20,6 +20,6 @@ for attempt in $(seq 1 60); do
 done
 
 test -n "$DEVICE"
-/usr/bin/nvidia-smi -i "$DEVICE" -ac 3615,2000
+/usr/bin/nvidia-smi -i "$DEVICE" -ac 3615,1911
 actual=$(/usr/bin/nvidia-smi -i "$DEVICE" --query-gpu=clocks.applications.graphics --format=csv,noheader,nounits)
-test "$actual" = 2000
+test "$actual" = 1911

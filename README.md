@@ -6,10 +6,15 @@ The kernel probe changes four fields in the driver's writable VBIOS shadow befor
 
 ## Research status
 
-- Actual loaded operation at **1544 MHz** was verified with an exact FP32 workload and a llama.cpp benchmark.
-- A **1797 MHz** application target was subsequently used under real workloads, with live clocks approaching that target and power management remaining active.
-- The included table encoding targets **2000 MHz** and its values were checked with a community VBIOS parser. This specific 2000 MHz configuration has **not yet been boot- or load-tested**.
-- No physical VBIOS clock edit, Falcon authentication bypass, or power-limit modification is part of this method.
+Updated November 9, 2026. See [RESULTS.md](RESULTS.md) for measurements, provenance and limitations.
+
+- Actual loaded operation at **1544 MHz** passed an exact FP32 check and a llama.cpp benchmark.
+- A **1797 MHz** application target was monitored for **23 minutes 47 seconds** under an existing workload. Actual SM clocks ranged from **1531 to 1771 MHz**; samples at >=90% utilization had a **1695 MHz median**. No matching NVIDIA Xid records were found in the accessible observation-period kernel logs.
+- The included **2000 MHz table encoding has now initialized successfully**, exposing a **1911 MHz graphics/SM ceiling** on the tested driver. Request **1911**, not 2000, through the application-clock API. A 2000 MHz actual operating clock has not been demonstrated.
+- At the **250 W** cap, the driver reported **software power capping active** with 1911 MHz requested and an actual clock of 1759 MHz. Raising the clock ceiling alone did not establish a higher sustained clock.
+- A separate **300 W shadow-policy variant** is reported in the experiment handoff to have passed a short exact-FP32 check. A later 20-sample workload series reported **18 samples above 250 W**, peaking at **276.61 W**. This variant is documented as a later result; the included probe remains clock-only.
+- A **3815 memory-clock candidate** is offline-validated only. Actual memory remained at 3615 during the reported rejected runtime request. No successful memory overclock is claimed.
+- The RAM-shadow method does not require flashing raised limits or bypassing Falcon authentication. The research card's earlier physical-flash history is disclosed in [METHOD.md](METHOD.md).
 
 This is a research snapshot, not a turnkey or generally portable overclocking utility. See [METHOD.md](METHOD.md) for the technical details and evidence boundaries.
 
@@ -19,17 +24,19 @@ This code patches kernel memory owned by a proprietary driver during GPU initial
 
 The current constants are specific to one Tesla P40 VBIOS layout and one x86-64 NVIDIA driver/kernel configuration. The original-value checks reduce the chance of patching an unexpected image, but they do not make the probe portable or guarantee safety. Keep a stock boot entry and do not use this on a production system.
 
-Higher requested clocks do not guarantee higher sustained clocks. Voltage, clock-bin selection, temperature, and the stock power limit can reduce the actual frequency. No long-term stability or safe operating margin has been established.
+Higher requested clocks do not guarantee higher sustained clocks. Voltage, clock-bin selection, temperature, and the configured power limit can reduce the actual frequency. No long-term stability or safe operating margin has been established.
 
 ## Repository contents
 
 - `p40clock.c`: kprobe that verifies and patches the host-RAM VBIOS shadow.
 - `Makefile`: external kernel-module build declaration.
-- `p40-clock`: selects a Tesla P40 by GPU name, requests 3615/2000 MHz, and checks the application-clock readback.
+- `p40-clock`: selects a Tesla P40 by GPU name, requests 3615/1911 MHz (the observed driver ceiling for the included table encoding), and checks the application-clock readback.
 - `p40-clock.service`: optional systemd oneshot service.
 - `initramfs-hook.example`: template for embedding the probe as `p40init.ko` in an initramfs.
 
-No proprietary driver, VBIOS image, signing material, account data, or machine-specific boot configuration is included.
+No proprietary driver, VBIOS image, signing material, account data, or machine-specific boot configuration is included. The 300 W and memory candidates are not enabled by the included probe or startup script.
+
+The tested stack was NVIDIA **580.178.04**, Linux **7.0.0-42-generic**, and Tesla P40 VBIOS **86.02.23.00.01**. These version identifiers do not make the hardcoded offsets compatible with other installations.
 
 ## Build the probe
 

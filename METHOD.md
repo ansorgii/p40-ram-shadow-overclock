@@ -6,7 +6,7 @@ Runtime NVML requests above the former 1531 MHz ceiling could be accepted withou
 
 ## Working approach
 
-The physical VBIOS remains unchanged for clock policy and initialization. During driver initialization, the NVIDIA driver constructs a writable copy of the VBIOS in host RAM. The probe modifies that copy before the driver constructs its clock policy.
+The host-RAM method leaves active physical clock-policy and initialization regions unchanged. During driver initialization, the NVIDIA driver constructs a writable copy of the VBIOS in host RAM. The probe modifies that copy before the driver constructs its clock policy.
 
 This avoids the physical firmware authentication path; it does not defeat or bypass Falcon signature verification. Original initialization firmware still runs on the card.
 
@@ -24,7 +24,7 @@ On x86-64, `p40clock.c` registers a kprobe at `_nv000283rm`. At function entry i
 
 These offsets, the symbol name, and the object layouts are driver/version-specific. The original-value guard is a compatibility check, not a proof that a different configuration is supported.
 
-## Included 2000 MHz candidate
+## Included 2000 MHz table encoding: observed 1911 MHz ceiling
 
 Offsets are relative to the start of the host-RAM VBIOS shadow:
 
@@ -39,7 +39,9 @@ The candidate vP-state raw value is `0x03e88fa0`, stored as `a0 8f e8 03` in lit
 
 The vP-state encoding is not a plain integer MHz field. Changes should be encoded and decoded with an appropriate parser rather than inferred from the final integer alone.
 
-Parser agreement and checksum consistency do not establish hardware stability. The included 2000 MHz candidate still requires a separate initialization test, application-clock readback, loaded clock sampling, and correctness-checked workload.
+A subsequent research boot applied this table encoding and initialized successfully. The tested driver exposed a 1911 MHz maximum graphics/SM clock and a 2000 MHz customer-boost field. A 2000 MHz application request was unsupported and could leave the application setting at 1303 MHz. The startup script therefore requests the supported 1911 MHz graphics value while retaining 3615 memory.
+
+These reported fields are distinct from actual operating clocks. The exact conversion/bin-selection mechanism is not established here. Successful initialization does not establish 2000 MHz operation, long-term stability or a performance improvement. See [RESULTS.md](RESULTS.md) for observations at 1797/1911 targets and the later power-policy variant.
 
 ## Previously verified configurations
 
@@ -61,6 +63,20 @@ The earlier persistent configuration used:
 | `0x37fff` | `0x39` |
 
 Under varying real workloads, observed SM clocks approached the 1797 MHz target. Power draw approached the stock 250 W limit, and clock frequency varied with utilization and power management. This demonstrated a substantially expanded operating range, not a fixed all-workload frequency.
+
+## Later power and memory experiments
+
+The experiment handoff reports a separate 300 W variant editing average and peak power-budget fields at shadow offsets `0x302b2` and `0x302b6`, from 250000 to 300000 mW, retaining a 125000 mW minimum. A boot log and policy readback were followed by a short exact-FP32 check and a separate workload sample series above 250 W. These results do not establish safe margins or sustained 300 W operation. The clock-only source in this repository does not apply those edits; its checksum byte must not be reused blindly for additional table changes.
+
+A separate candidate adds a 3815 memory target to a 3615 configuration. The handoff reports that an earlier variant initialized without changing actual memory. A later variant changes a flagged middle field as well and is offline-validated, with boot/load validation pending. An application-memory readback of 3815 accompanied by actual memory of 3615 is not a successful memory overclock. The rejected request also left graphics application clocks at 1303 MHz. Memory field units/encodings and clock readbacks must be documented independently; no memory bandwidth or stability result is available.
+
+These are reported follow-up experiments, not features enabled by the included source snapshot.
+
+## Physical ROM history
+
+The research card had undergone physical flashing during earlier experiments. The handoff identifies the last physical image as an erased-tail control rather than a byte-identical original ROM. Comparison of the saved full-SPI files verified equal 524288-byte lengths and exactly one difference, `0xff` to `0xfe` at offset `0x7ffff`, outside the identified active images. This was an artifact comparison, not a fresh chip readback. No active clock table was changed in that control image.
+
+The clock-limit method itself applies changes in RAM. A reproduction starting from a byte-identical stock ROM remains a useful additional control.
 
 ## Negative results that shaped the method
 
